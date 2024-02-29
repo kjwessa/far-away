@@ -1,4 +1,13 @@
-export default function App() {}
+export default function App() {
+  return (
+    <div className="app">
+      <Logo />
+      <Form />
+      <PackingList />
+      <Stats />
+    </div>
+  );
+}
 
 function Logo() {
   return <h1>🏝️ Far Away 👜</h1>;
@@ -15,7 +24,7 @@ function PackingList() {
 }
 function Stats() {
   return (
-    <footer>
+    <footer className="stats">
       <em>👜 You have X items on your list, and you already packed X (X%)</em>
     </footer>
   );
