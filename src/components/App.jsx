@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Logo from "./Logo.js";
-import Form from "./Form.js";
-import PackingList from "./PackingList.js";
-import Stats from "./Stats.js";
+import Logo from "./Logo.jsx";
+import Form from "./Form.jsx";
+import PackingList from "./PackingList.jsx";
+import Stats from "./Stats.jsx";
 
 export default function App() {
   /* State */
