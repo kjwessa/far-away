@@ -1,4 +1,4 @@
-# Kevin Wessa
+# Far Away: A Travel Preparation App
 
 ## TL;DR
 
